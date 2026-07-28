@@ -16,13 +16,13 @@ SoftwareSerial arduinoSerial(D5, D6); // RX, TX
 
 
 //WiFi Connfigration
-const char *ssid = "DESKTOP-B1OGNGK 8563";
-const char *pass = "97@3Vc86";
+const char *ssid = "";
+const char *pass = "";
 
 //MQTT Configration
-const char* MQTT_Server = "805cbd81a3a94169829feb28a5458e8f.s2.eu.hivemq.cloud";
-const char* MQTT_Username = "abdallah";
-const char* MQTT_Password = "Abdo123#";
+const char* MQTT_Server = "";
+const char* MQTT_Username = "";
+const char* MQTT_Password = "";
 const char* MQTT_ClientId = "Device0001";
 const int MQTT_Port = 8883;
 
